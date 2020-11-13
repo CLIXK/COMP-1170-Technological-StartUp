@@ -1,0 +1,40 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the header of the site/application.
+// -----------------------------------------------------------------------------
+
+.watch-header {
+  padding: 25px 0;
+  align-items: center;
+}
+
+.logo {
+  display: inline-flex;
+}
+
+.logo-img {
+  max-height: 26px;
+}
+
+.nav-links {
+  display: inline-flex;
+  margin-left: 35px;
+}
+
+.links {
+  display: inline-flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  line-height: 1;
+}
+
+.menu-item {
+  margin-left: 25px;
+}
+
+.nav-links .links .menu-item {
+  font-size: 1rem;
+  margin-left: 24px;
+  margin-right: 25px;
+}

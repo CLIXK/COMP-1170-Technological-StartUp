@@ -1,0 +1,20 @@
+/// Container's maximum width
+/// @type Length
+$max-width: 75rem !default;
+
+$backgorund: #fefefe;
+$fontcolor: #1d1d1d;
+
+/// Regular font stack
+/// @type List
+$text-font-stack: "Segoe UI", Tahoma, "Noto Sans", "Roboto", "Helvetica",
+  "Open Sans", -apple-system, system-ui, BlinkMacSystemFont, sans-serif;
+
+/// Breakpoints map
+/// @prop {String} keys - Keys are identifiers mapped to a given length
+/// @prop {Map} values - Values are actual breakpoints expressed in pixels
+$breakpoints: (
+  "small": 320px,
+  "medium": 768px,
+  "large": 1024px,
+) !default;
