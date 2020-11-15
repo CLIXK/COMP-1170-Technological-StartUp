@@ -321,3 +321,10 @@
   margin: 66.2px 0;
   padding: 10px 0;
 }
+
+.vertical {
+  -webkit-writing-mode: vertical-rl;
+  -ms-writing-mode: tb-rl;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+}
