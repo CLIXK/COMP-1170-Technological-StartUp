@@ -523,6 +523,57 @@ nav {
   margin-top: 35px;
 }
 
+.company {
+  padding-bottom: 40px;
+}
+
+.about-us-desc h3 {
+  font-size: 2rem;
+  line-height: 1.2;
+  font-weight: bold;
+}
+
+.about-us-desc p {
+  color: #777;
+  line-height: 26px;
+  margin: 0 0 20px;
+}
+
+.our-team {
+  padding-top: 40px;
+  background-color: #ededed !important;
+}
+
+.team-heading {
+  font-weight: normal;
+}
+
+.lead {
+  color: #777;
+  font-weight: 300;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  letter-spacing: -0.05em;
+  margin: 0 0 20px;
+}
+
+.behind {
+  color: #777;
+  line-height: 26px;
+  margin: 0 0 20px;
+}
+
+.member-title {
+  font-weight: 700;
+  font-size: 1.2em;
+  margin: 0;
+}
+
+.member-container {
+  padding-top: 1rem;
+  padding-bottom: 3rem;
+}
+
 .btn {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
