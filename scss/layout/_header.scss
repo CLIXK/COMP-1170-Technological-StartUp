@@ -2,9 +2,18 @@
 // This file contains all styles related to the header of the site/application.
 // -----------------------------------------------------------------------------
 
-.watch-header {
-  padding: 25px 0;
+header {
+  display: flex;
   align-items: center;
+  flex-wrap: wrap;
+  top: 0;
+  left: 0;
+  width: 100%;
+  user-select: none;
+}
+
+.watch-header {
+  padding: 17px 0;
 }
 
 .logo {

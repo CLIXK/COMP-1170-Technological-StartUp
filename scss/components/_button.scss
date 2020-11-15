@@ -1,3 +1,38 @@
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the button component.
 // -----------------------------------------------------------------------------
+
+.btn {
+  display: inline-flex;
+  font-weight: 600;
+  line-height: 1.5;
+  color: #212529;
+  text-align: center;
+  align-items: center;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: all 0.25s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+.btn::before {
+  content: "";
+  display: inline-flex;
+  width: 35px;
+  height: 1px;
+  margin-right: 15px;
+  background: rgba(0, 0, 0, 0.15);
+  transition: all 0.25s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+.btn:hover {
+  color: #121212;
+  transition: all 0.25s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+.btn:hover::before {
+  width: 60px;
+  background: #121212;
+  transition: all 0.25s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
