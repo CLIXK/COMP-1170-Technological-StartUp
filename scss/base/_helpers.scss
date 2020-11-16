@@ -3,16 +3,7 @@
 // -----------------------------------------------------------------------------
 
 /**
- * Clear inner floats
- */
-.clearfix::after {
-  clear: both;
-  content: "";
-  display: table;
-}
-
-/**
- * Main content containers
+ * Containers
  * 1. Make the container full-width with a maximum width
  * 2. Center it in the viewport
  * 3. Leave some space on the edges, especially valuable on small screens
@@ -114,32 +105,20 @@
   text-align: left !important;
 }
 
-.text-right {
-  text-align: right !important;
-}
-
 .text-center {
   text-align: center !important;
-}
-
-.text-justify {
-  text-align: justify !important;
-}
-
-.strong {
-  font-weight: bold !important;
 }
 
 .text-uppercase {
   text-transform: uppercase !important;
 }
 
-.text-lowercase {
-  text-transform: lowercase !important;
-}
-
 .justify-content-center {
   justify-content: center !important;
+}
+
+.emphasis {
+  color: crimson !important;
 }
 
 .section-title {
@@ -186,13 +165,13 @@
   color: white;
   font-size: 18px;
   line-height: 27px;
-  margin: 66.2px 0;
-  padding: 10px 0;
+  margin: 50px 0;
+  padding: 7 px 0;
 }
 
 .vertical {
-  -webkit-writing-mode: vertical-rl;
-  -ms-writing-mode: tb-rl;
   writing-mode: vertical-rl;
   text-orientation: mixed;
+  -webkit-writing-mode: vertical-rl;
+  -ms-writing-mode: tb-rl;
 }

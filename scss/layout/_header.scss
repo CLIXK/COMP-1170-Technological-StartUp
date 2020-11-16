@@ -1,15 +1,6 @@
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the header of the site/application.
 // -----------------------------------------------------------------------------
-
-header {
-  position: relative;
-  top: 0;
-  width: 100%;
-  z-index: 99999;
-  background: #fff;
-}
-
 nav {
   height: 5rem;
   padding-left: 2rem;
@@ -31,31 +22,11 @@ nav {
 }
 
 .links a {
-  position: relative;
   font-weight: 400;
   font-size: 1rem;
-  transition: 0.3s ease all;
   text-transform: uppercase;
   letter-spacing: 0.4px;
   color: $fontcolor;
-}
-
-.links a::before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 1px;
-  left: 0;
-  bottom: -3px;
-  opacity: 0;
-  background-color: #000;
-  transition: 0.3s ease transform, 0.3s ease opacity;
-  transform: scaleX(1);
-}
-
-.links a:hover {
-  transform: scaleX(1);
-  opacity: 1;
 }
 
 .links a + a {

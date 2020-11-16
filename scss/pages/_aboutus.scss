@@ -20,11 +20,23 @@
 
 .our-team {
   padding-top: 40px;
-  background-color: #ededed !important;
+  background-color: #ededed;
 }
 
 .team-heading {
   font-weight: normal;
+}
+
+.team-heading::after {
+  content: "";
+  display: block;
+  height: 1px;
+  width: 35px;
+  position: relative;
+  background: #121212;
+  top: 7px;
+  left: 50.2%;
+  margin-left: -25px;
 }
 
 .lead {
@@ -51,4 +63,8 @@
 .member-container {
   padding-top: 1rem;
   padding-bottom: 3rem;
+}
+
+.about-us-container {
+  padding: 0 20px;
 }
